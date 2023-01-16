@@ -1,6 +1,13 @@
-# this is  my first respository
+basic comand for working with git
 
-Hello world
-i changed my file
+git add . <<<<ცვლილებების რეგისტრაცია მთლიან პროექტში>>>>
 
-and im going to upload it
+git commit -m "message" <<<<ასე ვთქვათ დარეგისტრირებული ცვლილებების სეივი ლოკალურად>>>>
+
+git push origin branch-name <<<<დასეივებული ცვლილებების გაფუშვა>>>>
+
+git checkout branch-name <<<<გადასვლა ბრენჩებს შორის>>>>
+
+git checkout -b branch-name <<<<ახალი ბრენჩის შექმნა>>>>
+
+git pull <<<<რიმოუთიდან ცვლილებების დააფდეითება,როცა ბრენჩი დალინკულია>>>>
